@@ -1,7 +1,7 @@
 /**
  * TODO(developer): informar o topico do Pub/Sub e Json de dados.
  */
-process.env.GOOGLE_APPLICATION_CREDENTIALS="../GCP/datalake-grendene-d1b22c338204.json"
+process.env.GOOGLE_APPLICATION_CREDENTIALS="../GCP/my_project.json"
 const topicName = 'GRND';
 const data = JSON.stringify({teste: 'Node 05', atualizacao: new Date()});
 
